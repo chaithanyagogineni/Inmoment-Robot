@@ -1,7 +1,9 @@
 
 $(document).ready(function() {
-	$.support.cors = true;
+
 	function testInput(event) {
+//		var key = event.keyCode;
+//		  return ((key >= 65 && key <= 90) || (key >= 97 && key <= 122) || key == 8);
 		   var value = String.fromCharCode(event.which);
 		   var pattern = new RegExp(/[a-zåäö ]/i);
 		   return pattern.test(value);

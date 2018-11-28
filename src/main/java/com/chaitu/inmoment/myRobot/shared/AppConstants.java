@@ -3,7 +3,7 @@ package com.chaitu.inmoment.myRobot.shared;
 
 /*
  * This class holds the constants that can be shared among multiple packages of the application
- * This is referred as "Constant Interface Anti Pattern"
+ * I took constants in final class instead of interface to avoid "Constant Interface Anti Pattern"
  * There are many advantages to use this instead of an interface
  * 
  */

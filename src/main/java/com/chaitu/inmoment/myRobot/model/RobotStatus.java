@@ -2,7 +2,7 @@ package com.chaitu.inmoment.myRobot.model;
 
 
 /*
- * This is the model object for Robot Status.All the GET and POST requests of REST API returns JSON objects which are mapped to
+ * This is the model object for Robot Status.All the POST requests of REST API returns JSON objects which are mapped to
  * this object.
  */
 public class RobotStatus {
